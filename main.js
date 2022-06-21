@@ -1,3 +1,4 @@
-function myFunction() {
-  document.getElementById("asign").innerHTML= "Hello       Steve, welcome to the bootcamp";
+function formdata(){
+  var firstname1= document.getElementById("firstname").value;
+  document.writeln("Hello " + firstname1 + ", welcome to the bootcamp<br>")
 }
